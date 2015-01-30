@@ -1,0 +1,5 @@
+[client]
+database = stephanyyjose
+user = root
+password = trustno1
+default-character-set = utf8
