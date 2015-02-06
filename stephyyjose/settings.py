@@ -23,7 +23,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(__file__))
 SECRET_KEY = 'm)4_uns0-dyv08a@7-9ch$@6&cq2g2v20v&erol&=$4sd!arxj'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 TEMPLATE_DEBUG = True
 
@@ -69,7 +69,16 @@ try:
     # If not default to {}
 
     if 'DATABASES' not in locals():
-        DATABASES = {}
+        # develop database
+        DATABASES = {
+            'default': {
+                'ENGINE': 'django.db.backends.mysql',
+                'NAME': 'stephyyjose',
+                'USER': 'root',
+                'PASSWORD': 'trustno1',
+                'HOST': 'localhost'
+            }
+        }
 
     if 'DATABASE_URL' in os.environ:
         url = urlparse.urlparse(os.environ['DATABASE_URL'])
