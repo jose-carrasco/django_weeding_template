@@ -23,12 +23,15 @@ BASE_DIR = os.path.dirname(os.path.dirname(__file__))
 SECRET_KEY = 'm)4_uns0-dyv08a@7-9ch$@6&cq2g2v20v&erol&=$4sd!arxj'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 TEMPLATE_DEBUG = True
 
 ALLOWED_HOSTS = []
 
+ADMINS = (
+    ('josecarrasco', 'joseantonio@pixelsoda.com.mx'),
+)
 
 # Application definition
 
