@@ -2,6 +2,421 @@
 
 {% block mainContent %}
 
-<h1>Bienvenidos!</h1>
+
+
+      <!-- Home Page -->
+      <a id="home" data-magellan-destination='home'>
+      </a>
+      <section id="home-page" >
+        <div id="main-title-container">
+          <div id="main-title-text">
+            <span class="names">Stephany</span>
+            <span class="andperson">&nbsp;&&nbsp;</span>
+            <span class="names">José Antonio</span>
+            <div class="separator">
+                TENEMOS EL HONOR DE INVITARTE A
+            </div>
+              <h2>
+              Nuestra Boda
+            </h2>
+            <span>
+              S&nbsp;&nbsp;Á&nbsp;&nbsp;B&nbsp;&nbsp;A&nbsp;&nbsp;D&nbsp;&nbsp;O
+            </span>
+            <h3>16</h3>
+            <span>
+              M&nbsp;&nbsp;A&nbsp;&nbsp;Y&nbsp;&nbsp;O&nbsp;&nbsp;&nbsp;&nbsp;2&nbsp;&nbsp;0&nbsp;&nbsp;1&nbsp;&nbsp;5
+            </span>
+          </div>
+        </div>
+
+        {% include "header.html" %}
+
+	  </section>
+
+
+	<!-- Our Story -->
+    <a id="our-story" data-magellan-destination='our-story'>
+    </a>
+    <section id="our-story-page" class="row" >
+	  <div class="fabric-rule">
+        </div>
+
+		<div class="twelve columns page-wrapper">
+          <div class="page">
+            <h2 class="align-center">
+              Nuestra Historia
+            </h2>
+            <br />
+            <img alt="divider" class="page-divider" src="/static/myEvent/images/divider2.png" />
+            <br />
+
+            <div class="six columns">
+              <p>
+                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+              </p>
+              <p>
+                Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur
+              </p>
+            </div>
+
+            <div class="six columns">
+              <p>
+                At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.
+              </p>
+            </div>
+          </div><!-- end page-->
+		</div><!-- end page-wrapper -->
+
+
+    </section>
+
+    <div class="fabric-rule">
+    </div>
+
+
+
+
+    <!-- Wedding -->
+    <a id="wedding" data-magellan-destination='wedding'>
+    </a>
+    <section id="wedding-page" class="row" >
+
+
+        <div class="twelve columns wedding-wrapper">
+
+          <div id="wedding-details">
+              <h2>
+            Lugar:
+          </h2>
+          <h1>
+            Hacienda San Juan Pueblilla
+          </h1>
+              <h1>
+            Zempoala, Hidalgo
+          </h1>
+          <h2>
+            CEREMONIA RELOGIOSA <span class="hour">1</span> pm
+          </h2>
+              <h2>
+            CEREMONIA CIVIL <span class="hour">2</span> pm
+          </h2>
+              <h2>
+            BANQUETE <span class="hour">3</span> pm
+          </h2>
+          <h3>
+
+          </h3>
+          <a href="#" data-reveal-id="mapModal">
+            <h3>
+              Cómo llegar
+            </h3>
+          </a>
+
+	  	</div>
+
+        </div>
+
+        <div id="mapModal" class="reveal-modal hidden">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3750.994941405449!2d-98.652506!3d19.924618!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1baa6e0fb8ba1%3A0x27ced92115fc730e!2sHacienda+San+Juan+Pueblilla!5e0!3m2!1ses!2smx!4v1426723710034" width="600" height="450" frameborder="0" style="border:0"></iframe>
+        </div>
+
+    </section>
+
+    <a id="visitors" data-magellan-destination='visitors'>
+    </a>
+    <div class="fabric-rule">
+    </div>
+
+    <!-- Visitors -->
+
+    <section id="visitors-page" class="row" >
+
+	  	<div class="page-wrapper">
+
+          <div class="page">
+
+            <h2 class="align-center">
+              Hoteles
+            </h2>
+            <br />
+            <img alt="divider" class="page-divider" src="/static/myEvent/images/divider2.png" />
+            <br />
+
+            <ul id="visitors-list" class="row">
+
+              <li>
+                <img class="visitors-photo" alt="hotel" src="../../0.s3.envato.com/files/3196639/hotel_20bed_2003.jpg" />
+                <div>
+                  <h5>
+                    Quest Royal Gardens
+                  </h5>
+                  <h6>
+                    12 Royal Lane, Fitzroy 3065
+                  </h6>
+                  <p>
+                    Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+                  </p>
+                </div>
+              </li>
+
+              <li>
+                <img class="visitors-photo" alt="hotel" src="../../2.s3.envato.com/files/23093686/_MG_0920a.html" />
+                <div>
+                  <h5>
+                    Mantra on the Park
+                  </h5>
+                  <h6>
+                    333 Exhibition St, Melbourne 3000
+                  </h6>
+                  <p>
+                    Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+                  </p>
+                </div>
+              </li>
+
+              <li>
+                <img class="visitors-photo" alt="hotel" src="../../0.s3.envato.com/files/47474288/IMG_9397.jpg" />
+                <div>
+                  <h5>
+                    Downtowner on Lygon
+                  </h5>
+                  <h6>
+                    66 Lygon St, Carlton 3066
+                  </h6>
+                  <p>
+                    Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+                  </p>
+                </div>
+              </li>
+
+              <li>
+                <img class="visitors-photo" alt="hotel" src="../../3.s3.envato.com/files/11199845/IMG_7110%20copy.jpg" />
+                <div>
+                  <h5>
+                    Melbourne Luxury Airport Shuttle
+                  </h5>
+                  <h6>
+                    312 Hume Fwy, Tullamarine 3192
+                  </h6>
+                  <p>
+                    Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+                  </p>
+                </div>
+              </li>
+
+            </ul>
+
+          </div>
+
+	  	</div>
+
+
+
+
+    </section>
+
+    <a id="gallery" data-magellan-destination='gallery'>
+    </a>
+    <div class="fabric-rule">
+    </div>
+
+    <section id="gallery-page" class="row" >
+
+        <div class="page-wrapper">
+
+          <ul class="block-grid four-up mobile-two-up">
+            <li>
+              <a class="fancybox" href="../../3.s3.envato.com/files/3674027/MON216016.jpg">
+                <img alt="gallery-image" src="../../3.s3.envato.com/files/3674027/MON216016.jpg" />
+              </a>
+            </li>
+
+
+            <li>
+              <a class="fancybox" href="../../1.s3.envato.com/files/4134258/Image_2261.jpg">
+                <img alt="gallery-image" src="../../1.s3.envato.com/files/4134258/Image_2261.jpg" />
+              </a>
+            </li>
+
+            <li>
+              <a class="fancybox" href="../../0.s3.envato.com/files/3895569/PD3_5957.jpg">
+                <img alt="gallery-image" src="../../0.s3.envato.com/files/3895569/PD3_5957.jpg" />
+              </a>
+            </li>
+
+
+            <li>
+              <a class="fancybox" href="../../3.s3.envato.com/files/7649034/DSC_4381.jpg">
+                <img alt="gallery-image" src="../../3.s3.envato.com/files/7649034/DSC_4381.jpg" />
+              </a>
+            </li>
+
+            <li>
+              <a class="fancybox" href="../../1.s3.envato.com/files/4627218/060604n0029.jpg">
+                <img alt="gallery-image" src="../../1.s3.envato.com/files/4627218/060604n0029.jpg" />
+              </a>
+            </li>
+
+
+            <li>
+              <a class="fancybox" href="../../3.s3.envato.com/files/18172393/stock_0531.html">
+                <img alt="gallery-image" src="../../3.s3.envato.com/files/18172393/stock_0531.html" />
+              </a>
+            </li>
+
+            <li>
+              <a class="fancybox" href="../../3.s3.envato.com/files/3895618/PD3_5983.jpg">
+                <img alt="gallery-image" src="../../3.s3.envato.com/files/3895618/PD3_5983.jpg" />
+              </a>
+            </li>
+
+
+            <li>
+              <a class="fancybox" href="../../0.s3.envato.com/files/17303957/IMG_6465.html">
+                <img alt="gallery-image" src="../../0.s3.envato.com/files/17303957/IMG_6465.html" />
+              </a>
+            </li>
+
+            <li>
+              <a class="fancybox" href="../../3.s3.envato.com/files/9615462/IMG_6392.jpg">
+                <img alt="gallery-image" src="../../3.s3.envato.com/files/9615462/IMG_6392.jpg" />
+              </a>
+            </li>
+
+
+            <li>
+              <a class="fancybox" href="../../3.s3.envato.com/files/43562754/2011-07-21-YuriK2-15-TheOneAndOnly-28.jpg">
+                <img alt="gallery-image" src="../../3.s3.envato.com/files/43562754/2011-07-21-YuriK2-15-TheOneAndOnly-28.jpg" />
+              </a>
+            </li>
+
+            <li>
+              <a class="fancybox" href="../../1.s3.envato.com/files/43549033/2011-07-21-YuriK2-15-TheOneAndOnly-33.jpg">
+                <img alt="gallery-image" src="../../1.s3.envato.com/files/43549033/2011-07-21-YuriK2-15-TheOneAndOnly-33.jpg" />
+              </a>
+            </li>
+
+
+            <li>
+              <a class="fancybox" href="../../1.s3.envato.com/files/43537276/2011-07-21-YuriK2-15-TheOneAndOnly-57.jpg">
+                <img alt="gallery-image" src="../../1.s3.envato.com/files/43537276/2011-07-21-YuriK2-15-TheOneAndOnly-57.jpg" />
+              </a>
+            </li>
+
+          </ul>
+
+		</div>
+
+
+    </section>
+
+    <a id="rsvp" data-magellan-destination='rsvp'>
+    </a>
+    <div class="fabric-rule">
+    </div>
+
+    <section class="row" id="rsvp-page" >
+
+	  	<div class="page-wrapper">
+
+          <div class="page">
+            <h2 class="align-center">
+              RSVP
+            </h2>
+            <img alt="divider" class="page-divider" src="/static/myEvent/images/divider2.png" />
+            <br />
+            <p>
+            	<em>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</em>
+            </p>
+
+            <form action="#rsvp">
+              <label>
+                Name:
+              </label>
+              <input type="text" placeholder="Name" />
+              <label>
+                Phone:
+              </label>
+              <input type="text" class="twelve" placeholder="Contact Number" />
+              <label>
+                Message:
+              </label>
+              <textarea>
+              </textarea>
+
+              <div class="row">
+
+                <div class="seven columns">
+                  <label for="radio1">
+                    <input name="radio1" type="radio" id="radio1" >
+                    <span class="custom radio">
+                    </span>
+                    I / We will be attending
+                  </label>
+                  <label for="radio2">
+                    <input name="radio1" type="radio" id="radio2" >
+                    <span class="custom radio checked">
+                    </span>
+                    Unfortunately I / We are unable to attend
+                  </label>
+
+                </div>
+
+					<div class="five columns">
+					  <label for="checkbox1">
+                        <input type="checkbox" id="checkbox1" checked>
+                        <span class="custom checkbox">
+                        </span>
+                        No dietary requirements
+                      </label>
+					  <label for="checkbox2">
+                        <input type="checkbox" id="checkbox2" >
+                        <span class="custom checkbox checked">
+                        </span>
+                        Vegetarian
+                      </label>
+					  <label for="checkbox3">
+                        <input type="checkbox" id="checkbox3">
+                        Gluten Free
+                      </label>
+					</div>
+				  </div>
+
+				  <input id="submit-form" type="submit" value="Send">
+
+              </form>
+
+
+
+          </div>
+
+	  	</div>
+
+    </section>
+
+    <!-- Footer -->
+
+    <footer class="row">
+      <div class="twelve columns">
+        <hr />
+        <div class="row">
+          <div class="six columns">
+            <p>
+              &copy; Pixel Soda, 2015
+            </p>
+          </div>
+          <div class="six columns">
+            <ul class="link-list right">
+              <li>
+                <a href="#home" class="scroll">
+                  Ir arriba
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+    </footer>
 
 {% endblock %}
