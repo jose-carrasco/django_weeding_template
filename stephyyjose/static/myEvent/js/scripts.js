@@ -1,5 +1,20 @@
 $(document).ready(function() {
 
+	$("#register").submit( function (event) {
+        event.preventDefault();
+        $('.message p').empty();
+        $.ajax({
+            method: "POST",
+            url: '/register',
+            dataType: 'json',
+            data: $('#register').serialize()
+		}).done(function (data) {
+				alert("mensaje");
+        	});
+    });
+
+
+
 	// Smooth scrolling navigation
 
 		$(".scroll").click(function(event){		

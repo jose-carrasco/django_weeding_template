@@ -1,83 +1,71 @@
-    <a id="rsvp" data-magellan-destination='rsvp'>
-    </a>
-    <div class="fabric-rule">
-    </div>
+<a id="rsvp" data-magellan-destination='rsvp'>
+</a>
+<div class="fabric-rule">
+</div>
 
-    <section class="row" id="rsvp-page" >
+<section class="row" id="rsvp-page">
 
-	  	<div class="page-wrapper">
+    <div class="page-wrapper">
 
-          <div class="page">
+        <div class="page">
             <h2 class="align-center">
-              RSVP
+                Confirma tu asistencia
             </h2>
-            <img alt="divider" class="page-divider" src="/static/myEvent/images/divider2.png" />
-            <br />
+            <img alt="divider" class="page-divider" src="/static/myEvent/images/separator.png"/>
+            <br/>
+
             <p>
-            	<em>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</em>
+                <em>!Muchas gracias por acompañarnos en este día tan importante para nosotros! Esperamos puedas
+                    confirmar tu asistencia.</em>
             </p>
 
-            <form action="#rsvp">
-              <label>
-                Name:
-              </label>
-              <input type="text" placeholder="Name" />
-              <label>
-                Phone:
-              </label>
-              <input type="text" class="twelve" placeholder="Contact Number" />
-              <label>
-                Message:
-              </label>
-              <textarea>
+            <form id="register">
+                {% csrf_token %}
+                <label>
+                    Nombre:
+                </label>
+                <input type="text" placeholder="Nombre" name="name" required/>
+                <label>
+                    Teléfono:
+                </label>
+                <input type="text" class="twelve" placeholder="Teléfono" name="phone" required/>
+                <label>
+                    Correo electrónico:
+                </label>
+                <input type="email" class="twelve" placeholder="Correo electrónico" name="email" required/>
+                <label>
+                    Mensaje:
+                </label>
+              <textarea name="message">
               </textarea>
 
-              <div class="row">
+                <div class="row">
 
-                <div class="seven columns">
-                  <label for="radio1">
-                    <input name="radio1" type="radio" id="radio1" >
+                    <div class="seven columns">
+                        <label for="radio2">
+                            <input name="attend" type="radio" id="radio1" value="1" required>
                     <span class="custom radio">
                     </span>
-                    I / We will be attending
-                  </label>
-                  <label for="radio2">
-                    <input name="radio1" type="radio" id="radio2" >
+                            ¡Claro que iré! :)
+                        </label>
+                        <label for="radio2">
+                            <input name="attend" type="radio" id="radio2" value="0" >
                     <span class="custom radio checked">
                     </span>
-                    Unfortunately I / We are unable to attend
-                  </label>
+                            Desafortunadamente no puedo ir :(
+                        </label>
 
+                    </div>
                 </div>
 
-					<div class="five columns">
-					  <label for="checkbox1">
-                        <input type="checkbox" id="checkbox1" checked>
-                        <span class="custom checkbox">
-                        </span>
-                        No dietary requirements
-                      </label>
-					  <label for="checkbox2">
-                        <input type="checkbox" id="checkbox2" >
-                        <span class="custom checkbox checked">
-                        </span>
-                        Vegetarian
-                      </label>
-					  <label for="checkbox3">
-                        <input type="checkbox" id="checkbox3">
-                        Gluten Free
-                      </label>
-					</div>
-				  </div>
+                <input id="submit-form" type="submit" value="Enviar">
 
-				  <input id="submit-form" type="submit" value="Send">
-
-              </form>
+            </form>
+<div class="message"><p>Mensaje</p></div>
 
 
+        </div>
 
-          </div>
+    </div>
 
-	  	</div>
-
-    </section>
+</section>

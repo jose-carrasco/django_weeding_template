@@ -10,4 +10,5 @@ urlpatterns = patterns('',
     url(r'^mesa_de_regalos', views.giftstable, name='giftstable'),
     url(r'^confirmacion', views.confirm, name='confirm'),
     url(r'^comparte_tus_fotos', views.photos, name='photos'),
+    url(r'^register', views.register, name='register'),
 )

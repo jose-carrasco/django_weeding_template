@@ -114,7 +114,7 @@ iframe{
 /* ----------------- Home Styles ------------------- */
 
 #home-page{
-	/*background:url('../images/1.jpg');*/
+	background:url('../images/10.jpg');
 	background-size: cover;
 	background-attachment: fixed;
 	padding-bottom: 8%;
@@ -138,9 +138,18 @@ iframe{
 #main-title-text{
 	color:#ff4040;
 	position:relative;
-	background-color: rgba(0,0,0,0.1);
+	background-color: rgba(255,255,255,0.80);
 	padding: 15px;
 	display:inline-block;
+}
+
+.main-title-separator{
+	background:url('../images/separator.png') no-repeat center;
+
+	height:30px;
+	color: #fff;
+	width: 100%;
+	position:relative;
 }
 
 .thick-hr{
@@ -150,7 +159,7 @@ iframe{
 }
 
 #main-title-text .names{
-	color:#ff4040;
+	color:rgb(255,64,64);
 	font-size: 100px;
 	margin-top:0px;
 	font-family: 'niageng';
@@ -158,14 +167,8 @@ iframe{
 }
 
 #main-title-text .andperson{
-	color:#ff4040;
-	font-size: 100px;
-	font-family: 'castelar';
-}
-
-#main-title-text .andperson{
-	color:#ff4040;
-	font-size: 100px;
+	color:rgb(255,64,64);
+	font-size: 90px;
 	font-family: 'castelar';
 }
 
@@ -307,6 +310,37 @@ iframe{
 }
 
 #visitors-list h6{
+	margin-top: 7px;
+	margin-bottom: 10px;
+}
+
+/* ----------------- Gifts Styles ------------------- */
+
+.gifts-photo{
+	width: 30%;
+	display:block;
+	padding: 10px;
+	border: 1px solid #d8d8d8;
+	float:left;
+}
+
+#gifts-list li{
+	border-bottom: 1px solid #d8d8d8;
+	margin-bottom: 25px;
+	overflow: hidden;
+}
+
+#gifts-list div{
+	padding-left: 15px;
+	float:right;
+	width: 70%;
+}
+
+#gifts-list h5{
+	margin:0px;
+}
+
+#gifts-list h6{
 	margin-top: 7px;
 	margin-bottom: 10px;
 }
