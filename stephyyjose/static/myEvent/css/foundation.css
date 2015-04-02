@@ -485,7 +485,7 @@ div.button-bar ul.button-group:last-child { margin-left: 0; }
 .nav-bar > li { float: left; display: block; position: relative; padding: 0; margin: 0; line-height: 39px; -webkit-box-shadow: 1px 0 0 rgba(255, 255, 255, 0.2) inset; -moz-box-shadow: 1px 0 0 rgba(255, 255, 255, 0.2) inset; box-shadow: 1px 0 0 rgba(255, 255, 255, 0.2) inset; }
 .nav-bar > li:first-child { -webkit-box-shadow: 0 0 0; -moz-box-shadow: 0 0 0; box-shadow: 0 0 0; }
 .nav-bar > li:last-child { -webkit-box-shadow: 1px 0 0 rgba(255, 255, 255, 0.2) inset, 1px 0 0 rgba(255, 255, 255, 0.2); -moz-box-shadow: 1px 0 0 rgba(255, 255, 255, 0.2) inset, 1px 0 0 rgba(255, 255, 255, 0.2); box-shadow: 1px 0 0 rgba(255, 255, 255, 0.2) inset, 1px 0 0 rgba(255, 255, 255, 0.2); }
-.nav-bar > li.active { border-bottom: 4px solid #ff4040;}
+.nav-bar > li.active { border-bottom: 4px solid #e2654f;}
 .nav-bar > li.active > a { color: #000; cursor: default; }
 .nav-bar > li.active:hover {  }
 .nav-bar > li:hover { border-bottom: 4px solid #f49090; }

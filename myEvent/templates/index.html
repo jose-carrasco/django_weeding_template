@@ -3,116 +3,124 @@
 {% block mainContent %}
 
 
-
-      <!-- Home Page -->
-      <a id="home" data-magellan-destination='home'>
-      </a>
-      <section id="home-page" >
-        <div id="main-title-container">
-          <div id="main-title-text">
+<!-- Home Page -->
+<a id="home" data-magellan-destination='home'>
+</a>
+<section id="home-page">
+    <div id="main-title-container">
+        <div id="main-title-text">
             <span class="names">Stephany</span>
             <span class="andperson">&nbsp;&&nbsp;</span>
             <span class="names">José Antonio</span>
+
             <div class="separator">
                 TENEMOS EL HONOR DE INVITARTE A
             </div>
-              <h2>
-              Nuestra Boda
+            <h2>
+                Nuestra Boda
             </h2>
             <span>
               S&nbsp;&nbsp;Á&nbsp;&nbsp;B&nbsp;&nbsp;A&nbsp;&nbsp;D&nbsp;&nbsp;O
             </span>
+
             <h3>16</h3>
             <span>
               M&nbsp;&nbsp;A&nbsp;&nbsp;Y&nbsp;&nbsp;O&nbsp;&nbsp;&nbsp;&nbsp;2&nbsp;&nbsp;0&nbsp;&nbsp;1&nbsp;&nbsp;5
             </span>
-          </div>
         </div>
+    </div>
 
-        {% include "header.html" %}
+    {% include "header.html" %}
 
-	  </section>
-
-
-	<!-- Our Story -->
-    <a id="our-story" data-magellan-destination='our-story'>
-    </a>
-    <section id="our-story-page" class="row" >
-	  <div class="fabric-rule">
-        </div>
-
-		<div class="twelve columns page-wrapper">
-          <div class="page">
-            <h2 class="align-center">
-              Nuestra Historia
-            </h2>
-            <br />
-            <img alt="divider" class="page-divider" src="/static/myEvent/images/separator.png" />
-            <br />
-
-            <div class="six columns">
-              <p>
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
-              </p>
-              <p>
-                Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur
-              </p>
-            </div>
-
-            <div class="six columns">
-              <p>
-                At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.
-              </p>
-            </div>
-          </div><!-- end page-->
-		</div><!-- end page-wrapper -->
+</section>
 
 
-    </section>
-
+<!-- Our Story -->
+<a id="our-story" data-magellan-destination='our-story'>
+</a>
+<section id="our-story-page" class="row">
     <div class="fabric-rule">
     </div>
 
+    <div class="twelve columns page-wrapper">
+        <div class="page">
+            <h2 class="align-center">
+                Nuestra Historia
+            </h2>
+            <br/>
+            <img alt="divider" class="page-divider" src="/static/myEvent/images/separator.png"/>
+            <br/>
+
+            <div class="six columns">
+                <p>
+                    Desde el momento en que nos conocimos muchos de ustedes se dieron cuenta que esta relación sería
+                    estupenda, ¡pero ni nosotros nos imaginamos tanto!
+                    Tuvimos un principio difícil, a más de 4,500 Km de distancia, pero la motivación de estar juntos
+                    fue mucho más fuerte que eso y damos gracias porque eso nos ayudó a ser la gran pareja que ahora somos.
+                </p>
+                <p>
+                     Esto fue creciendo tanto que decidimos dar el siguente paso ¡y queremos compartirlo con todos ustedes!
+                </p>
+            </div>
+
+            <div class="six columns">
+                <p>
+                    En este pequeño sitio encontrarán toda la información para llegar al evento y nos mantegamos en
+                    comunicación para cualquier novedad, así como fotos y hoteles para aquellos que viajan para acompañarnos.
+                </p>
+                <p>
+                    Esperamos que todos puedan asistir y que puedan compartir este maravillos momento con nosotros ¡Los queremos!
+                </p>
+            </div>
+        </div>
+        <!-- end page-->
+    </div>
+    <!-- end page-wrapper -->
 
 
+</section>
 
-    <!-- Wedding -->
-    {% include "weeding.html" %}
-
-    <!-- Visitors -->
-
-   {% include "visitors.html" %}
+<div class="fabric-rule">
+</div>
 
 
-   {% include "gallery.html" %}
+<!-- Wedding -->
+{% include "weeding.html" %}
+
+<!-- Visitors -->
+
+{% include "visitors.html" %}
+
+
+{% include "gallery.html" %}
 
 {% include "gifts.html" %}
 
-    {% include "rsvp.html" %}
+{% include "rsvp.html" %}
 
-    <!-- Footer -->
+<!-- Footer -->
 
-    <footer class="row">
-      <div class="twelve columns">
-        <hr />
+<footer class="row">
+    <div class="twelve columns">
+        <hr/>
         <div class="row">
-          <div class="six columns">
-            <p>
-              &copy; Pixel Soda, 2015
-            </p>
-          </div>
-          <div class="six columns">
-            <ul class="link-list right">
-              <li>
-                <a href="#home" class="scroll">
-                  Ir arriba
-                </a>
-              </li>
-            </ul>
-          </div>
+            <div class="six columns">
+                <p>
+                    &copy; Pixel Soda, 2015
+                </p>
+            </div>
+            <div class="six columns">
+                <ul class="link-list right">
+                    <li>
+                        <a href="#home" class="scroll">
+                            Ir arriba
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </div>
-      </div>
+    </div>
 
-    </footer>
+</footer>
 
 {% endblock %}

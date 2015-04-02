@@ -141,3 +141,12 @@ STATICFILES_DIRS = (
 # https://warehouse.python.org/project/whitenoise/
 
 STATICFILES_STORAGE = 'whitenoise.django.GzipManifestStaticFilesStorage'
+
+
+# Mandrill app
+EMAIL_BACKEND = 'django_mandrill.mail.backends.mandrillbackend.EmailBackend'
+MANDRILL_API_KEY = 'YYqygLRQ5K65kGX7Do32NQ'
+EMAIL_SENDER = "josecarrasco@icloud.com"
+URL_PROD = "www.stephanyyjose.com/"
+MAIL_SENDER_PASSWORD="YYqygLRQ5K65kGX7Do32NQ"
+MAIL_SENDER_USER="app33603073@heroku.com"
