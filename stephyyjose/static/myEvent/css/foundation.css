@@ -9,7 +9,7 @@ body { background: white; font-family: 'niagsol', Helvetica, Arial, sans-serif; 
 /* Links ---------------------- */
 a img { border: none; }
 
-a { color: #000; text-decoration: none; line-height: inherit; }
+a { color: #f1846f; text-decoration: none; line-height: inherit; }
 
 a:hover { color: #000; }
 
