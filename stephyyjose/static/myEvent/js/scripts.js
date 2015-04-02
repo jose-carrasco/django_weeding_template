@@ -10,7 +10,7 @@ $(document).ready(function () {
                     $('.message').append(response.message);
                 }
                 else {
-                    alert(response.message);
+                     $('.message').append(response.message);
                 }
             }).fail(function () {
                 console.log("hubo un error");
