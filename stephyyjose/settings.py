@@ -20,10 +20,10 @@ BASE_DIR = os.path.dirname(os.path.dirname(__file__))
 # See https://docs.djangoproject.com/en/1.7/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'm)4_uns0-dyv08a@7-9ch$@6&cq2g2v20v&erol&=$4sd!arxj'
+SECRET_KEY = 'mysecretkey'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 TEMPLATE_DEBUG = True
 
@@ -79,7 +79,7 @@ try:
                 'ENGINE': 'django.db.backends.mysql',
                 'NAME': 'stephyyjose',
                 'USER': 'root',
-                'PASSWORD': 'trustno1',
+                'PASSWORD': 'myrootpassword',
                 'HOST': 'localhost'
             }
         }
@@ -145,8 +145,8 @@ STATICFILES_STORAGE = 'whitenoise.django.GzipManifestStaticFilesStorage'
 
 # Mandrill app
 EMAIL_BACKEND = 'django_mandrill.mail.backends.mandrillbackend.EmailBackend'
-MANDRILL_API_KEY = 'YYqygLRQ5K65kGX7Do32NQ'
-EMAIL_SENDER = "josecarrasco@icloud.com"
+MANDRILL_API_KEY = ''
+EMAIL_SENDER = "sender@email.com"
 URL_PROD = "www.stephanyyjose.com/"
-MAIL_SENDER_PASSWORD="YYqygLRQ5K65kGX7Do32NQ"
-MAIL_SENDER_USER="app33603073@heroku.com"
+MAIL_SENDER_PASSWORD=""
+MAIL_SENDER_USER=""
